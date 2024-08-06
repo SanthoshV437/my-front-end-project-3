@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+    background-image: url("images/upload3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+}
+
+.container {
+    background-image: url("images/upload3.jpg");
+    padding: 60px;
+    border-radius: 10px;
+    width: 550px;
+    margin: auto;
+}
+
+label {
+    color: white;
+    font-size: 16px;
+    display: block;
+    margin: 5px 0;
+}
+
+h1 {
+    color: white;
+    font-size: 55px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 180px;
+    padding: 8px;
+    margin: 5px;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 16px;
+}
+
+input[type="button"] {
+    background-color: black;
+    color: white;
+    padding: 5px 2px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="button"]:hover {
+    background-color: red;
+}
+
+a:hover {
+    background-color: red;
+}
